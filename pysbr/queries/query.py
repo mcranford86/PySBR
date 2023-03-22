@@ -34,7 +34,7 @@ class Query:
         self._fields = utils.load_yaml((utils.build_yaml_path("fields")))
 
         ua = UserAgent()
-             headers = {
+            headers = {
             "User-Agent": ua.random,
             "Content-Type": "application/json",
             "Accept": "application/json, text/plain, /",
